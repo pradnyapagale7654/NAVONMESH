@@ -1,0 +1,7 @@
+# Add files/folders to ignore
+node_modules/
+__pycache__/
+*.pyc
+*.db
+.env
+dist/
