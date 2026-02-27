@@ -1,0 +1,65 @@
+.alerts-container {
+
+  padding: 20px;
+
+}
+
+.alerts-title {
+
+  font-size: 26px;
+
+  margin-bottom: 20px;
+
+}
+
+.alert-card {
+
+  background: #1e293b;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  margin-bottom: 15px;
+
+  border-left: 6px solid red;
+
+}
+
+.alert-machine {
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+}
+
+.alert-message {
+
+  margin-top: 5px;
+
+  color: #f87171;
+
+}
+
+.alert-time {
+
+  margin-top: 5px;
+
+  font-size: 12px;
+
+  color: #94a3b8;
+
+}
+
+.alert-warning {
+
+  border-left: 6px solid orange;
+
+}
+
+.alert-success {
+
+  border-left: 6px solid green;
+
+}
