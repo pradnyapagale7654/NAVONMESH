@@ -7,4 +7,5 @@ groq
 scikit-learn
 numpy
 joblib
+gunicorn
 
