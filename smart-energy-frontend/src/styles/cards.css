@@ -1,0 +1,74 @@
+.stat-card {
+  background: #0f172a;
+  color: #e5e7eb;
+  border-radius: 1rem;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.stat-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stat-card-title {
+  margin: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #9ca3af;
+}
+
+.stat-card-value {
+  margin: 0.2rem 0 0.1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.stat-card-subtitle {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.prediction-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+}
+
+.prediction-card-header h3 {
+  margin: 0 0 0.8rem;
+  font-size: 1rem;
+}
+
+.prediction-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.prediction-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.prediction-label {
+  color: #6b7280;
+}
+
+.prediction-value {
+  font-weight: 500;
+  color: #111827;
+}
+
